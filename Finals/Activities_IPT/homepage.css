@@ -1,0 +1,95 @@
+body{
+    font-family: 'Courier New';
+    background: black;
+    padding: 0;
+    margin: 8px;
+}
+
+.header{
+    align-items: center;
+    padding: 5px;
+    background: #13131a;
+    width: calc(1200px - 50px);
+    margin: 0 auto;
+    border-radius: 80px;
+    box-shadow: 15px 15px blue;
+    transition: 0.5s ease-in-out;
+}
+.header:hover{
+    box-shadow: -10px -10px rgb(255, 255, 255);
+
+}
+
+.header h3{
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    letter-spacing: 6px;
+    
+}
+.bigbox{
+    margin: 100px auto;
+
+    height: 300px;
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bigbox .litteboxes{
+    
+    margin: 15px;
+    height: 50px;
+    float: left;
+    width: 100px;
+    padding: 130px;
+    background-color: #13131a;
+    border-radius: 50px;
+    box-shadow: 10px 10px blue;
+    transition: 0.3s ease-in-out;
+    align-items: center;
+    text-align: center;
+    top: 0;
+    right: 0;
+    
+}
+.bigbox .litteboxes:hover{
+    box-shadow: 10px 10px  0px 0px rgb(255, 255, 255);
+
+}
+
+
+.footer {
+  
+    text-decoration: underline 2px;
+    text-align: center;
+    color: white;
+    line-height: 5px;
+    font-size: 15px;
+    margin-top: 110px;
+    letter-spacing: 5px;
+    position: relative;
+}
+
+.bigbox .litteboxes .img{
+
+    margin-top: -120px;
+    color: white;
+    text-align: center;
+    width: 200px;
+    margin-left: -50px;
+    }
+
+.bigbox .litteboxes .img a{
+        font-size: 20px;
+        text-decoration: none;
+        color: rgb(36, 36, 167);
+       transition: 0.3s ease-in-out;
+    }
+.bigbox .litteboxes .img a:hover{
+        padding-left: 10px;
+        padding-right: 10px;
+        color: white;
+
+        border-bottom:  white solid 2px;
+    }

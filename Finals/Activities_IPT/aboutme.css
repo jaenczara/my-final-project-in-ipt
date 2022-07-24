@@ -1,0 +1,121 @@
+body{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.header{
+    width: 100%;
+    background: #13131a;
+    padding-top: 5px;
+    
+}
+.header h3{
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+
+}
+
+
+.box{
+    margin: 0 auto;
+    width: 90%;
+    background-color: #13131a;
+    padding: 20px;
+    padding-bottom: 15px;
+    border-radius: 100px;
+    position: relative;
+    text-align: center;
+    
+    
+}
+
+
+
+.box .box2{
+    background-color: #13131a;
+    border: rgb(91, 91, 221) 1px solid;
+    box-shadow: 10px 10px rgb(91, 91, 221);
+    display: inline-block;
+    height: 100px;
+    width: 500px;
+    height: 400px;
+    border-radius: 50px;
+    margin: 20px;
+    transition: 0.5s ease-in-out;
+
+}
+
+.box .box2:hover{
+    border: rgb(255, 255, 255) 1px solid;
+    transform: scale(1.1);
+    box-shadow: 10px 10px  0px 0px rgb(255, 255, 255);
+}
+
+
+
+.box .box2 .text{   
+    color: rgb(255, 255, 255);
+    margin-top: 25px;
+    text-align: justify;
+    position: absolute;
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+
+
+.box .box2 .img{   
+    
+    margin: 0 auto; 
+    margin-left: -200px;
+    margin-top: 25px;
+    align-items: center;
+    height: 350px;
+    width: 400px;
+    border-radius: 50px;
+    position: absolute;
+}
+
+
+
+
+
+
+.footer {
+  
+    text-decoration: underline 2px;
+    text-align: center;
+    color: white;
+    line-height: 5px;
+    font-size: 15px;
+    margin-top: 100px;
+    letter-spacing: 5px;
+    
+}
+
+
+.back a{
+color: rgb(91, 91, 221);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+    text-align: center;
+    margin-left: 10px;
+    background-color: #13131a;
+    width: 50px;
+    padding: 20px;
+    text-decoration: none;
+    margin-top: 10px;
+    position: absolute;
+    border-radius: 20px;
+    box-shadow: 2px 2px rgb(91, 91, 221);
+    transition: 0.3s ease-in-out;
+
+}
+.back:hover a{
+    color: white;
+    box-shadow: 2px 2px  0px 0px rgb(255, 255, 255);
+}
